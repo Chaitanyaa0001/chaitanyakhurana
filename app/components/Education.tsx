@@ -64,7 +64,7 @@ const Education = () => {
               <Image
               height={150}
               width={150}
-               src="/college.png" alt="college-logo" />
+               src="/College.png" alt="college-logo" />
               <div className='flex flex-col gap-6=3'>
                 <h3 className='text-xl lg:text-2xl sm:text-3xl font-bold '>Dr. Akhilesh Das Gupta Institute of Professional Studies</h3>
                <p className='font-semibold text-blue-300'>Affiliation: <span className='text-white'>Guru Gobind Singh Intraprasta University</span></p>
