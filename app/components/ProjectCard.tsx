@@ -2,6 +2,7 @@ import { Projects } from "@/data/myData";
 import React from "react";
 import { GrLinkNext } from "react-icons/gr";
 import { motion, MotionValue } from "motion/react";
+import Image from "next/image";
 
 interface ProjectCardProps extends Projects {
   translateContent?: MotionValue<number>,
@@ -23,11 +24,13 @@ const ProjectCard: React.FC<ProjectCardProps> = (props) => {
             <GrLinkNext className="lg:text-4xl text-2xl group-hover:translate-x-5 transition-all duration-300 ease-in-out" />
           </div>
           <div>
-            <img
+            <Image
               className="w-full bg-purple-400 shadow-[0_0_30px_#DDDDDD] rounded-lg translate-y-2 group-hover:-rotate-4 group-hover:scale-115 transition-transform duration-400"
-              src={`projects/${props.image}`}
-              alt={props.name}
-            />
+              src={`/projects/${props.image}`}
+              alt={props.name as string}
+              width={800}
+              height={600}
+                   />
           </div>
         </div>
       </motion.div>

@@ -97,8 +97,8 @@ export const technologies: Technology[] = [
   },
   {
     id: 19,
-    icon: "Redis.png",
-    technology : "Redis"
-  }
+    icon: "Redis.svg",
+    technology : "Redis Cloud"
+  },
 ];
   

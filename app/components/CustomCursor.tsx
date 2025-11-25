@@ -36,7 +36,7 @@ const CustomCursor = () => {
   return (
     <div
       ref={cursorRef}
-      className="hidden lg:block fixed top-0 left-0 w-4 h-4 border border-purple-300 pointer-events-none z-[9999] transition-all duration-500 ease-out"
+      className="hidden lg:block fixed top-0 left-0 w-4 h-4 border border-blue-300 pointer-events-none z-[9999] transition-all duration-500 ease-out"
     />
   );
 };

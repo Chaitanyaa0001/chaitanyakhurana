@@ -42,23 +42,23 @@ const Header = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
-        className="sm:hidden w-full flex justify-between items-center gap-2 rounded-lg bg-purple-900/10 backdrop-blur-md border border-purple-700 mt-6 px-4 py-2"
+        className="sm:hidden w-full flex justify-between items-center gap-2 rounded-lg bg-blue-900/10 backdrop-blur-md border border-blue-700 mt-6 px-4 py-2"
         onClick={() => setIsOpen(!isOpen)}
       > 
-        <span className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300">Geetesh Dalal</span>
+        <span className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300">Chaitanya Khurana</span>
         {isOpen ? <RxCross2 className="text-4xl" /> : <TbMenu3 className="text-4xl" />}
       </motion.button>
 
       <AnimatePresence>
       {isOpen && (
         <motion.nav
-          className="sm:hidden origin-top flex flex-col bg-purple-900/10 backdrop-blur-md p-1 border border-purple-700 rounded-xl w-full mt-2"
+          className="sm:hidden origin-top flex flex-col bg-purple-900/10 backdrop-blur-md p-1 border border-blue-700 rounded-xl w-full mt-2"
           initial={{ scaleY: 0 }}
           animate={{ scaleY: 1 }}
           exit={{ scaleY: 0 }}
           >
           <motion.div
-            className="absolute -bottom-0.25 left-[5%] h-0.5 w-full bg-purple-600 rounded-full"
+            className="absolute -bottom-0.25 left-[5%] h-0.5 w-full bg-blue-600 rounded-full"
             style={{ scaleX: scrollYProgress }}
             initial={{ width: "90%" }}
             />

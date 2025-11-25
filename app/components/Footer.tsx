@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className='black-background lg:pt-20 pt-15 pb-10 lg:px-44 sm:px-28 px-4 flex flex-col items-center'>
       <div className='w-full flex flex-col lg:flex-row lg:justify-between items-center lg:items-start gap-10'>
         <div className='lg:w-2/3 flex flex-col gap-4 items-center lg:items-start'>
-          <span className='text-2xl sm:text-3xl font-bold'>Chaitanya</span>
+          <span className='text-2xl sm:text-3xl font-bold'>Chaitanya Khurana</span>
           <p className='text-neutral-400 text-sm sm:text-base'>Blending creativity with code to bring your vision to life.</p>
           <div className='flex gap-1'>
             <a 
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
       <div className='w-full h-0.5 bg-gradient-to-r from-transparent via-white/50 to-transparent my-10 rounded-full' />
       <div>
-        <p className='text-center text-sm text-neutral-400'>&copy; 2025 Geetesh Dalal. All rights reserved.</p>
+        <p className='text-center text-sm text-neutral-400'>&copy; 2025 Chaitanya Khurana. All rights reserved.</p>
       </div>
     </footer>
   )

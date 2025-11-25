@@ -15,7 +15,7 @@ const Header = () => {
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="w-full sm:hidden flex justify-between items-center bg-blue-900/10 backdrop-blur-md border border-blue-700 rounded-lg px-4 py-2"
       >
-        <span className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-purple-100 to-purple-300">
+        <span className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-100 to-blue-300">
           Chaitanya Khurana
         </span>
         <Link href="/">
@@ -28,10 +28,10 @@ const Header = () => {
         initial={{ y: -100, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className="hidden sm:grid grid-cols-2 gap-14 items-center justify-between p-1 border border-purple-700 bg-purple-900/10 backdrop-blur-md rounded-full relative"
+        className="hidden sm:grid grid-cols-2 gap-14 items-center justify-between p-1 border border-blue-700 bg-blue-900/10 backdrop-blur-md rounded-full relative"
       >
-        <span className="text-2xl px-6 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-purple-100 to-purple-300">
-          Geetesh Dalal
+        <span className="text-2xl px-6 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-300 via-blue-100 to-blue-300">
+          Chaitanya Khurana
         </span>
 
         <div className="flex justify-end">

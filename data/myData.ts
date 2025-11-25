@@ -19,111 +19,119 @@ export interface Projects {
 }
 
 export const myData: Data = {
-    email: 'geeteshdalal.work@gmail.com',
-    linkedin: 'geeteshdalal',
-    resume: 'https://drive.google.com/file/d/1y-7ZK_SeygvUpaZXBzxTNVAvPh8-cq1K/view?usp=sharing',
-    github: 'Geeteshgit',
-    leetcode: 'Geetesh_Dalal',  
-    CGPA: 9.04
+    email: 'chaitanyakhurana.workk@gmail.com',
+    linkedin: 'chaitanya-khurana-077b702a0',
+    resume: 'https://drive.google.com/file/d/1x1A7fY5Bhgo98GRlyqSaXaSUp74cREhg/view?usp=drive_link',
+    github: 'Chaitanyaa0001',
+    leetcode: 'chaitanyaa001',  
+    CGPA: 8.74
 }
 
 export const projects: Projects[] = [
-    {
-        image: 'genpalette.png',
-        caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
-        name: 'GenPalette',
-        link: 'https://genpalette-virid.vercel.app/',
-        github: 'https://github.com/Geeteshgit/genpalette',
-        description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
+     {
+        image: 'UptimeIQ.png',
+        caption: 'An AI-powered platform to monitor API reliability, latency, and system performance.',
+        name: 'UptimeIQ',
+        link: 'https://uptime-iq-eight.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/UptimeIQ',
+        description:
+            'UptimeIQ is an AI-powered API monitoring and analytics platform that tracks uptime, latency, and service reliability. It uses Gemini Flash 2.5 for intelligent anomaly detection and log analysis, helping developers debug faster and maintain stable systems.',
         features: [
-            'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
-            'Live preview and explore section with AI-generated palettes.',
-            'User dashboard to save and manage favorite palettes and colors.',
-            'Dynamic imports and custom React hooks for optimized performance and clean code.',
-            'Secure authentication with Auth.js and smooth UI animations using Framer Motion.'
+            'Role Based Access Control and 2Factor Authentication i.e User and Admin ',
+            'AI-powered anomaly detection using Google Gemini Flash 2.5.',
+            'Real-time uptime, latency, and performance scoring.',
+            'Secure authentication with OTP login, JWT Access and Refresh  tokens.',
+            '40% faster API responses using Redis caching, MongoDB indexing, and OTP rate limiting.',
+            'Optimized frontend using lazy loading and TanStack Query.'
         ],
-        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
+        technologies: [
+            'React.js',
+            'Node.js',
+            'TypeScript',
+            'Express.js',
+            'MongoDB',
+            'Redis',
+            'Cloudinary',
+            'Brevo',
+            'Redux'
+        ]
+    },
+      {
+        image: 'MediMate.png',
+        caption: 'AI-driven telemedicine platform for digital health assistance and appointments.',
+        name: 'MediMate',
+        link: 'https://medi-mate-delta.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/MediMate',
+        description:
+            'MediMate is an AI-powered telemedicine platform enabling secure doctor–patient appointments, AI medical assistance, and real-time health monitoring using Google Fit API.',
+        features: [
+            'Role Based Authentication enabling for Doctor and Patient ',
+            'AI-driven medical assistance using Gemini Flash 2.5.',
+            'Google Fit integration for heart rate, oxygen, and blood pressure data.',
+            '20+ REST APIs with MVC architecture.',
+            'Secure authentication via JWT, Google OAuth 2.0, and bcrypt hashing.',
+            'Faster UI using Redux Toolkit and dynamic imports (12% reduced bundle size).'
+        ],
+        technologies: ['React.js','Node.js','Express.js','MongoDB','Tailwind CSS','Google','Cloudinary','Redux']
     },
     {
-        image: 'readmeeasy.png',
-        caption: 'Instantly generate professional README.md files with AI.',
-        name: 'ReadmeEasy',
-        link: 'https://readmeeasy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/readme-easy',
-        description: 'ReadmeEasy is an AI-powered tool that helps developers create clean, structured, and professional README.md files by simply entering their project details. It uses Gemini AI to intelligently generate missing content and follows best open-source documentation practices.',
+        image: 'campusConnect.png',
+        caption: 'A student-driven platform for communication, collaboration, and campus utilities.',
+        name: 'CampusConnect',
+        link: 'https://campus-connect-live.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/CampusConnect',
+        description:
+            'CampusConnect is a MERN-based social networking platform helping students with real-time chat, collaborations, carpooling, and lost & found.',
         features: [
-            'AI-generated README.md files with intelligent content filling.',
-            'Supports all major README sections like features, usage, tech stack, screenshots, license, etc.',
-            'GitHub-style markdown preview',
-            'Live markdown editor powered by Monaco Editor.',
-            'Form-based project input with real-time preview.',
-            'Responsive and accessible design.',
-            'Download generated README as a .md file.',
+            'Real-time chat & private DMs powered by Socket.IO.',
+            'State Managment via Redux-Toolkit and Redux Persist',
+            'JWT + Google OAuth-based secure authentication.',
+            'Carpool and project collaboration features.',
+            'Lost & Found system improving recovery by 80%.',
+            'Optimized performance using Redux Toolkit & dynamic imports.'
         ],
-        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'MongoDB']
+        technologies: ['React.js','Node.js','Express.js','MongoDB','Redux','Socket.IO','Cloudinary']
     },
-    {
-        image: 'campushive.png',
-        caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
-        name: 'CampusHive',
-        link: 'https://campushive-snowy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/CampusHive',
-        description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
+        {
+        image: 'CartZen.png',
+        caption: 'A Python NLP chatbot built with Flask and React.',
+        name: 'CartZen Bot',
+        link: 'https://cartzen-ai-chatbot.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/CartZen-Bot',
+        description:
+            'CartZen Bot is an NLP-powered chatbot built with Python & Flask. It responds to user queries using a predefined knowledge base and features a React frontend with secure authentication.',
         features: [
-            'Real-time public chat and private DMs using Socket.IO.'
-            , 
-            'Secure login with JWT and Google OAuth.'
-            ,
-            'Carpool posts to reduce travel costs.'
-            ,
-            'Lost & Found with searchable listings.'
-            ,
-            'Project posts to connect for collaborations.'
-            ,
-            'Peer-to-peer car rental listings.'
+            'NLP-based intelligent response system with predefined dataset.',
+            'Lightweight Python Flask backend for real-time chat.',
+            'JWT-secured authentication for protected routes.',
+            'Clean and responsive React UI for chatbot interactions.',
+            'Extendable modular architecture for adding more training data.'
         ],
-        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
+        technologies: ['Python','Flask','React.js','JWT',]
     },
+    // {
+    //     image: 'portfolio.png',
+    //     caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
+    //     name: 'Personal Portfolio',
+    //     link: 'https://geeteshdalal.vercel.app/',
+    //     github: 'https://github.com/Geeteshgit/geeteshportfolio',
+    //     description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
+    //     features: [
+    //         'Built with Next.js and TypeScript for fast performance.'
+    //         , 
+    //         'Styled using Tailwind CSS for full responsiveness across devices.'
+    //         ,
+    //         'Enhanced with smooth animations using Framer Motion.'
+    //     ],
+    //     technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
+    // },
     {
-        image: 'codev.png',
-        caption: 'A powerful platform for developers to showcase their coding profiles, projects, and skills.',
-        name: 'Codev',
-        link: 'https://codev-ten.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Codev',
-        description: 'Codev is a developer portfolio and discovery platform where users showcase their skills, projects, and coding profiles (like GitHub, LeetCode, etc.). It features personalized profiles and project highlights to help developers stand out and get discovered.',
-        features: [
-            'Personalized portfolios to showcase coding profiles like LeetCode, Codeforces, GitHub, and more.',
-            'Project section with descriptions, live links, and technologies used.',
-            'Explore and discover developers or get discovered by recruiters based on skills.',
-            'JWT-based authentication for secure login and session management.',
-            'Image uploads handled via Cloudinary.',
-            'State management using Redux for smooth user experience.'
-        ],
-        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
-    },
-    {
-        image: 'portfolio.png',
-        caption: 'A sleek full stack developer portfolio to showcase skills, projects, and coding profiles.',
-        name: 'Personal Portfolio',
-        link: 'https://geeteshdalal.vercel.app/',
-        github: 'https://github.com/Geeteshgit/geeteshportfolio',
-        description: 'A fully responsive web developer portfolio designed to highlight personal projects, technical stack, and online presence across coding platforms. It features project cards with visuals, direct links to GitHub, LinkedIn, and LeetCode, and a downloadable resume—built for professional presentation and easy sharing.',
-        features: [
-            'Built with Next.js and TypeScript for fast performance.'
-            , 
-            'Styled using Tailwind CSS for full responsiveness across devices.'
-            ,
-            'Enhanced with smooth animations using Framer Motion.'
-        ],
-        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion']
-    },
-    {
-        image: 'weather-wiz.png',
+        image: 'Windy.png',
         caption: 'A clean and responsive weather app that provides real-time forecasts using the AccuWeather API.',
-        name: 'Weather Wiz',
+        name: 'Windy',
         link: 'https://weather-wiz-ruby.vercel.app/',
-        github: 'https://github.com/Geeteshgit/weather-wiz', 
-        description: 'Weather Wiz is a simple and user-friendly weather application that allows users to search and view current weather conditions and forecasts for cities around the world. It leverages the AccuWeather API to deliver weather updates with a sleek, responsive design built using HTML, CSS, and JavaScript.',
+        github: 'https://github.com/Chaitanyaa0001/Windy-', 
+        description: 'Windy is a simple and user-friendly weather application that allows users to search and view current weather conditions and forecasts for cities around the world. It leverages the AccuWeather API to deliver weather updates with a sleek, responsive design built using HTML, CSS, and JavaScript.',
         features: [
             'Real-time weather data and forecasts powered by AccuWeather API.',
             'Search any city to view current temperature, weather condition, and forecast.',
@@ -136,8 +144,8 @@ export const projects: Projects[] = [
         image: 'bust-that-bubble-game.png',
         caption: 'A fun and fast-paced browser game that tests your reflexes and accuracy under time pressure.',
         name: 'Bust That Bubble Game',
-        link: 'https://bust-that-bubble-game.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Bust-That-Bubble-Game',
+        link: 'https://bust-bubble-game.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/bust-bubble-game-',
         description: 'Bust That Bubble is a web-based reflex game where players must click the correct numbered bubble within a 60-second countdown. The game dynamically generates numbered bubbles, tracks user interactions, and updates scores in real time for improving DOM manipulation skills and mastering basic game logic.',
         features: [
             'Timed gameplay with a 60-second countdown for urgency.',
@@ -148,76 +156,100 @@ export const projects: Projects[] = [
         technologies: ['HTML5', 'CSS3', 'JavaScript']
     },
     {
-        image: 'dripshop.png',
-        caption: 'E-Commerce frontend-only practice project with cart functionality.',
+        image: 'shopSphere.png',
+        caption: 'E-Commerce frontend-only practice project with Search functionality.',
         name: 'DripShop',
-        link: 'https://dripshop-project.vercel.app/',
-        github: 'https://github.com/Geeteshgit/Dripshop-project', 
-        description: 'DripShop is a beginner-friendly e-commerce frontend-only practice project built using HTML, CSS, and JavaScript. It allows users to browse products, add them to a cart, and perform basic CRUD operations such as updating quantities or removing items in addition to being fully responsive.',
+        link: 'https://first-e-commerce-project-shopsphere.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/first-e-commerce-project-shopsphere-', 
+        description: 'ShopSphere is a beginner-friendly e-commerce frontend-only practice project built using HTML, CSS, and JavaScript.',
         features: [
             'Pure frontend project built with HTML, CSS, and vanilla JavaScript.',
-            'Includes a functional cart system with Create, Read, Update, Delete operations.',
-            'Products dynamically rendered with local storage support for persistent cart data.'
+            'Includes a Search and filtering  system with help of JavaScript',
         ],
         technologies: ['HTML5', 'CSS3', 'JavaScript']
     },
 ]
 
 export const featuredProjects: Projects[] = [
-    {
-        image: 'genpalette.png',
-        caption: 'An AI-powered tool to generate, preview, explore, and save cohesive color palettes with real-time visuals.',
-        name: 'GenPalette',
-        link: 'https://genpalette-virid.vercel.app/',
-        github: 'https://github.com/Geeteshgit/genpalette',
-        description: 'GenPalette is an AI-powered color palette generation and visualization tool built for developers and designers. It enables users to effortlessly create, preview, explore and save cohesive color themes using Gemini AI.',
+     {
+        image: 'UptimeIQ.png',
+        caption: 'An AI-powered platform to monitor API reliability, latency, and system performance.',
+        name: 'UptimeIQ',
+        link: 'https://uptime-iq-eight.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/UptimeIQ',
+        description:
+            'UptimeIQ is an AI-powered API monitoring and analytics platform that tracks uptime, latency, and service reliability. It uses Gemini Flash 2.5 for intelligent anomaly detection and log analysis, helping developers debug faster and maintain stable systems.',
         features: [
-            'AI-powered tool to generate cohesive and random color palettes using Gemini API.',
-            'Live preview and explore section with AI-generated palettes.',
-            'User dashboard to save and manage favorite palettes and colors.',
-            'Dynamic imports and custom React hooks for optimized performance and clean code.',
-            'Secure authentication with Auth.js and smooth UI animations using Framer Motion.'
+            'Role Based Access Control and 2Factor Authentication i.e User and Admin ',
+            'AI-powered anomaly detection using Google Gemini Flash 2.5.',
+            'Real-time uptime, latency, and performance scoring.',
+            'Secure authentication with OTP login, JWT Access and Refresh  tokens.',
+            '40% faster API responses using Redis caching, MongoDB indexing, and OTP rate limiting.',
+            'Optimized frontend using lazy loading and TanStack Query.'
         ],
-        technologies: ['Next.js', 'React.js', 'Tailwind CSS', 'MongoDB', 'Redux', 'Framer Motion']
+        technologies: [
+            'React.js',
+            'Node.js',
+            'TypeScript',
+            'Express.js',
+            'MongoDB',
+            'Redis',
+            'Cloudinary',
+            'Brevo',
+            'Redux'
+        ]
+    },
+      {
+        image: 'MediMate.png',
+        caption: 'AI-driven telemedicine platform for digital health assistance and appointments.',
+        name: 'MediMate',
+        link: 'https://medi-mate-delta.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/MediMate',
+        description:
+            'MediMate is an AI-powered telemedicine platform enabling secure doctor–patient appointments, AI medical assistance, and real-time health monitoring using Google Fit API.',
+        features: [
+            'Role Based Authentication enabling for Doctor and Patient ',
+            'AI-driven medical assistance using Gemini Flash 2.5.',
+            'Google Fit integration for heart rate, oxygen, and blood pressure data.',
+            '20+ REST APIs with MVC architecture.',
+            'Secure authentication via JWT, Google OAuth 2.0, and bcrypt hashing.',
+            'Faster UI using Redux Toolkit and dynamic imports (12% reduced bundle size).'
+        ],
+        technologies: [
+            'React.js',
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'Tailwind CSS',
+            'Google',
+            'Cloudinary',
+            'Redux'
+        ]
     },
     {
-        image: 'readmeeasy.png',
-        caption: 'Instantly generate professional README.md files with AI.',
-        name: 'ReadmeEasy',
-        link: 'https://readmeeasy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/readme-easy',
-        description: 'ReadmeEasy is an AI-powered tool that helps developers create clean, structured, and professional README.md files by simply entering their project details. It uses Gemini AI to intelligently generate missing content and follows best open-source documentation practices.',
+        image: 'campusConnect.png',
+        caption: 'A student-driven platform for communication, collaboration, and campus utilities.',
+        name: 'CampusConnect',
+        link: 'https://campus-connect-live.vercel.app/',
+        github: 'https://github.com/Chaitanyaa0001/CampusConnect',
+        description:
+            'CampusConnect is a MERN-based social networking platform helping students with real-time chat, collaborations, carpooling, and lost & found.',
         features: [
-            'AI-generated README.md files with intelligent content filling.',
-            'Supports all major README sections like features, usage, tech stack, screenshots, license, etc.',
-            'GitHub-style markdown preview',
-            'Live markdown editor powered by Monaco Editor.',
-            'Form-based project input with real-time preview.',
-            'Responsive and accessible design.',
-            'Download generated README as a .md file.',
+            'Real-time chat & private DMs powered by Socket.IO.',
+            'State Managment via Redux-Toolkit and Redux Persist',
+            'JWT + Google OAuth-based secure authentication.',
+            'Carpool and project collaboration features.',
+            'Lost & Found system improving recovery by 80%.',
+            'Optimized performance using Redux Toolkit & dynamic imports.'
         ],
-        technologies: ['Next.js', 'React.js', 'TypeScript', 'Tailwind CSS', 'MongoDB']
-    },
-    {
-        image: 'campushive.png',
-        caption: 'A student-driven platform solving daily campus challenges through seamless communication and collaboration.',
-        name: 'CampusHive',
-        link: 'https://campushive-snowy.vercel.app/',
-        github: 'https://github.com/Geeteshgit/CampusHive',
-        description: 'CampusHive is a platform aimed at solving common campus challenges, enhancing communication, and connecting students for various needs like collaboration, carpooling, and social interactions.',
-        features: [
-            'Real-time public chat and private DMs using Socket.IO.'
-            , 
-            'Secure login with JWT and Google OAuth.'
-            ,
-            'Carpool posts to reduce travel costs.'
-            ,
-            'Lost & Found with searchable listings.'
-            ,
-            'Project posts to connect for collaborations.'
-            ,
-            'Peer-to-peer car rental listings.'
-        ],
-        technologies: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'CSS3', 'Socket.IO']
-    },
+        technologies: [
+            'React.js',
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'Redux',
+            'Socket.IO',
+            'Cloudinary'
+        ]
+    }
 ];

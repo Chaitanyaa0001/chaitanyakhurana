@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description: "I'm a full-stack developer focused on building scalable backend systems while exploring GenAI and AI agents. I love solving real-world problems with clean code and modern web technologies.",
   keywords: "Full Stack Developer, Web Developer, Next Developer, React Developer, Node.js, JavaScript, Portfolio, MongoDB, MERN Stack, Software Engineer",
   icons: {
-    icon: "/favicon.jpg"
+    icon: "/USER.jpg"
   }
 };
 

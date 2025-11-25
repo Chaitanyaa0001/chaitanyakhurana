@@ -59,7 +59,7 @@ const Skills = () => {
         <svg viewBox="0 0 200 200" className='sm:h-[150px] text-blue-400  h-[100px] opacity-75'>
         <motion.path
           d="M70 60 L0 100 L70 140" // < 
-          stroke="#A78BFA"
+          stroke="#4790FF"
           strokeWidth="8"
           fill="none"
           style={{ pathLength }}
@@ -67,7 +67,7 @@ const Skills = () => {
         />
         <motion.path
           d="M130 60 L200 100 L130 140" // > 
-          stroke="#A78BFA"
+          stroke="#4790FF"
           strokeWidth="8"
           fill="none"
           style={{ pathLength }}
@@ -75,7 +75,7 @@ const Skills = () => {
         />
         <motion.path
           d="M115 25 L85 175" // /
-          stroke="#A78BFA"
+          stroke="#4790FF"
           strokeWidth="8"
           fill="none"
           style={{ pathLength }}
