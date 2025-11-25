@@ -156,9 +156,9 @@ export const projects: Projects[] = [
         technologies: ['HTML5', 'CSS3', 'JavaScript']
     },
     {
-        image: 'shopSphere.png',
+        image: 'ShopSphere.png',
         caption: 'E-Commerce frontend-only practice project with Search functionality.',
-        name: 'DripShop',
+        name: 'ShopSphere',
         link: 'https://first-e-commerce-project-shopsphere.vercel.app/',
         github: 'https://github.com/Chaitanyaa0001/first-e-commerce-project-shopsphere-', 
         description: 'ShopSphere is a beginner-friendly e-commerce frontend-only practice project built using HTML, CSS, and JavaScript.',
