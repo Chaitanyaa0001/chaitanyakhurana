@@ -3,6 +3,7 @@ import React from "react";
 import { MdNavigateNext } from "react-icons/md";
 import { VscGithubAlt } from "react-icons/vsc";
 import { motion, MotionValue } from "motion/react";
+import Image from "next/image";
 
 interface ProjectInfoProps extends Projects {
   opacityContent?: MotionValue<number>;
@@ -52,12 +53,14 @@ const ProjectInfo: React.FC<ProjectInfoProps> = (props) => {
               className="flex items-center gap-2 text-sm bg-neutral-900 px-3 py-1 border border-neutral-700 rounded-lg shadow-lg shadow-purple-500/10"
               variants={childVariants}
             >
-              <img
-                src={`/icons/${tech}.svg`}
-                alt={tech}
-                className="h-5 w-5 object-contain"
-              />
-              <h3 className="opacity-90 whitespace-nowrap">{tech}</h3>
+               <Image
+              src={`/icons/${tech}.svg`}
+              alt={tech}
+              width={20}
+              height={20}
+              className="h-5 w-5 object-contain"
+            />
+            <h3 className="opacity-90 whitespace-nowrap">{tech}</h3>
             </motion.div>
           );
         })}
