@@ -78,7 +78,7 @@ export const projects: Projects[] = [
         image: 'campusConnect.png',
         caption: 'A student-driven platform for communication, collaboration, and campus utilities.',
         name: 'CampusConnect',
-        link: 'https://campus-connect-live.vercel.app/',
+        link: 'https://campus-connect-ten-psi.vercel.app/',
         github: 'https://github.com/Chaitanyaa0001/CampusConnect',
         description:
             'CampusConnect is a MERN-based social networking platform helping students with real-time chat, collaborations, carpooling, and lost & found.',
@@ -129,7 +129,7 @@ export const projects: Projects[] = [
         image: 'Windy.png',
         caption: 'A clean and responsive weather app that provides real-time forecasts using the AccuWeather API.',
         name: 'Windy',
-        link: 'https://weather-wiz-ruby.vercel.app/',
+        link: 'https://windy-ecru.vercel.app/',
         github: 'https://github.com/Chaitanyaa0001/Windy-', 
         description: 'Windy is a simple and user-friendly weather application that allows users to search and view current weather conditions and forecasts for cities around the world. It leverages the AccuWeather API to deliver weather updates with a sleek, responsive design built using HTML, CSS, and JavaScript.',
         features: [
@@ -230,7 +230,7 @@ export const featuredProjects: Projects[] = [
         image: 'campusConnect.png',
         caption: 'A student-driven platform for communication, collaboration, and campus utilities.',
         name: 'CampusConnect',
-        link: 'https://campus-connect-live.vercel.app/',
+        link: 'https://campus-connect-ten-psi.vercel.app/',
         github: 'https://github.com/Chaitanyaa0001/CampusConnect',
         description:
             'CampusConnect is a MERN-based social networking platform helping students with real-time chat, collaborations, carpooling, and lost & found.',
