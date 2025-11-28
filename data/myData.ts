@@ -155,8 +155,6 @@ export const projects: Projects[] = [
         ],
         technologies: ['HTML5', 'CSS3', 'JavaScript']
     },
-
-    
     {
         image: 'ShopSphere.png',
         caption: 'E-Commerce frontend-only practice project with Search functionality.',
