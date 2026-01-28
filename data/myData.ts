@@ -107,7 +107,7 @@ export const projects: Projects[] = [
             'Clean and responsive React UI for chatbot interactions.',
             'Extendable modular architecture for adding more training data.'
         ],
-        technologies: ['Python','Flask','React.js','JWT',]
+        technologies: ['Python','Flask','React.js']
     },
     // {
     //     image: 'portfolio.png',
